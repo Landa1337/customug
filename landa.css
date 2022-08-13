@@ -116,15 +116,17 @@ span.at {
 
 /* lrefunder */
 #shoutbox a[href$="member.php?action=profile&uid=2097439"]>span {
-  all: initial;
+all: initial;
   
   font-family: 'Roboto',sans-serif;
   font-size: 13px;
 
-background: url(https://static.cracked.to/images/onyx-bg.gif);
-    text-shadow: 0.5px 0.5px 5px;
-    -webkit-animation: hueanim 10s infinite linear;
-    color: #0FF;
-    font-weight: bold;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #1b9bbd;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px #540973;
+    background-image: url(https://static.cracked.to/images/bg1.gif),linear-gradient(90deg,#f00 0%,#00ff2a 100%,#f00);
+    animation: harvey 5s infinite linear;
 
 }
