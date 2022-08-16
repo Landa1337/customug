@@ -115,7 +115,7 @@ span.at {
 }
 
 /* BOSS OF THE BOSSES */
-#shoutbox a[href$="member.php?action=profile&uid=1563926"]>span {
+#shoutbox a[href$="member.php?action=profile&uid=2097439"]>span {
   all: initial;
   
   font-family: 'Roboto',sans-serif;
@@ -148,19 +148,4 @@ span.at {
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   border-bottom:1px dotted #ffd700
-}
-
- /* irefunder */
-#shoutbox a[href$="member.php?action=profile&uid=2097439"]>span {
-  all: initial;
-  
-  font-family: 'Roboto',sans-serif;
-  font-size: 13px;
-
-  background: url(https://static.cracked.to/images/onyx-bg.gif);
-    text-shadow: 0.5px 0.5px 5px;
-    -webkit-animation: hueanim 10s infinite linear;
-    color: #0FF;
-    font-weight: bold;
-
 }
